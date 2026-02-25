@@ -1,16 +1,72 @@
-# React + Vite
+# 🌦 Simple Weather Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React weather application built using **React + Vite** that allows users to quickly check the current weather conditions of any city worldwide.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Features
 
-## React Compiler
+✅ Search weather by city name  
+✅ Real-time weather data using OpenWeatherMap API  
+✅ Temperature toggle (°C ↔ °F)  
+✅ Weather condition emojis  
+✅ Recent search history (last 5 cities)  
+✅ Loading & error handling  
+✅ Glassmorphism weather card UI  
+✅ Centered responsive layout  
+✅ Modern animated gradient background  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- JavaScript
+- CSS
+- OpenWeatherMap API
+- React Hooks (`useState`, `useEffect`)
+
+---
+
+## 📂 Project Structure
+src/
+├── assets/
+│ └── background.jpg
+├── components/
+│ └── WeatherCard.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+
+📱 Application Workflow
+
+1.User enters city name.
+
+2.React fetches weather data using API.
+
+3.Weather information is stored in state.
+
+4.Weather card displays:
+
+  Temperature
+  Condition
+  Emoji
+  Weather icon
+
+5.Recent searches are saved and reusable.
+
+
+🎯 Concepts Used
+
+Functional Components
+Controlled Inputs
+API Integration
+Conditional Rendering
+State Management
+useEffect Dependency Handling
+List Rendering using map()
+Event Handling
+
+Author - By Himanshu
