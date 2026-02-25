@@ -1,0 +1,77 @@
+.app {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+
+/* Search */
+.search-bar input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  background: #38bdf8;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Glass Card */
+.weather-card {
+  width: 320px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.emoji {
+  font-size: 60px;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.recent button {
+  background: #22c55e;
+}
+.app {
+  min-height: 100vh;
+
+  /* CENTER CONTENT */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+
+  text-align: center;
+  color: white;
+
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+
+  backdrop-filter: blur(10px);
+}
